@@ -11,7 +11,7 @@ It seems a cache file from this PC has been retrieved. Please investigate it!
 
 [Archivo](../wanictf/files/for-Surveillance-of-sus.zip)
 
-## SOlución
+## Solución
 
 1. Confirmar que tipo de archiv es.
 2. De acuerdo a la descripción, nos indica que es un archivo de cache de un PC el cual fue recuperado para investigar.
