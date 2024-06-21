@@ -4,7 +4,7 @@
 USBが狭い
 What a small usb!
 
-[Archivo](../wanictf/files/for-tiny-usb.zip)
+[Archivo](../files/for-tiny-usb.zip)
 
 ## Solución 
 
