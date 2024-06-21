@@ -8,9 +8,8 @@
 
 Donde se utiliza los parámetros -s para indicar donde están el archivo .bin y el -d para indicar donde se desea tener la información que se va a obtener.
 
-
-6. Luego de esperar unos minutos, obtenemos una gran cantidad de archivos tipo bmp, los cuales son imágenes o recortes de imágenes, al buscar un poco mas sobre esto, logramos tener la aplicación [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher/blob/main/README.md) que nos sirve para unir estas imágenes, en un tipo de rompecabezas.
+5. Luego de esperar unos minutos, obtenemos una gran cantidad de archivos tipo bmp, los cuales son imágenes o recortes de imágenes, al buscar un poco mas sobre esto, logramos tener la aplicación [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher/blob/main/README.md) que nos sirve para unir estas imágenes, en un tipo de rompecabezas.
 ![Obtener imagenes](../Imagenes/6p2AQ7bTLp.png)
 
-7. Encontramos la flag: FLAG{RDP_is_useful_yipeee}
+6. Encontramos la flag: FLAG{RDP_is_useful_yipeee}
 ![Flag](../Imagenes/msrWYbN7fS.png)
