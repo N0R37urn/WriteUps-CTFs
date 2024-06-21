@@ -4,6 +4,8 @@
 ### Content
 I, the codebreaker, have broken the QR code!
 
+[Archivo](../files/for-codebreaker.zip)
+
 ## Solución
 
 1. Leemos un poco de la estructura de estos codigos QR. [Link](https://medium.com/@r00__/decoding-a-broken-qr-code-39fc3473a034)
