@@ -2,6 +2,8 @@
 
 What a small usb!
 
+Nos dan un archivo .iso (chal_tiny_usb.iso), que es posiblemente un volcado de la memoria USB en el que se podrá encontrar la bandera.
+
 1. Confirmar que tipo de archivo es.
 2. Revisar con strings para buscar información que nos pueda ser util.
 
