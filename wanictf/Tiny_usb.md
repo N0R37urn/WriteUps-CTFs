@@ -1,6 +1,11 @@
-## Tiny_usb
+# tiny_usb
+### 125pt Beginner
 
+USBが狭い
 What a small usb!
+
+
+## Solución 
 
 Nos dan un archivo .iso (chal_tiny_usb.iso), que es posiblemente un volcado de la memoria USB en el que se podrá encontrar la bandera.
 
