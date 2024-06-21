@@ -4,7 +4,7 @@
 ### Content
 I, the codebreaker, have broken the QR code!
 
-[Archivo](/files/for-codebreaker.zip)
+[Archivo](../wanictf/files/for-codebreaker.zip)
 
 ## Solución
 
