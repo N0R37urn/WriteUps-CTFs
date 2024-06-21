@@ -5,7 +5,7 @@ What a small usb!
 1. Confirmar que tipo de archivo es.
 2. Revisar con strings para buscar información que nos pueda ser util.
 
-![Primeros pasos](WriteUps-CTFs/Imagenes/wkTeIFO2OK.png)
+![Primeros pasos](../Imagenes/wkTeIFO2OK.png)
 
 3. Identificar que hay una posible imagen añadida en la iso.
 4. Utilizar el comando "Binwalk" para extraer datos del archivo.
