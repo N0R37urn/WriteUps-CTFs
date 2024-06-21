@@ -3,7 +3,7 @@
 
 Do you know RSA?
 
-(Archivo)[.../files/]
+[Archivo](../files/cry-beginners-rsa.zip) 
 
 # Solución
 
@@ -11,7 +11,7 @@ El código realiza el descifrado de un mensaje cifrado con RSA utilizando un mó
 
 - Factorizar n con [Factordb](http://www.factordb.com/) 
 
-`
+```
 from Crypto.Util.number import getPrime, bytes_to_long, long_to_bytes, inverse
 
 # Generación de primos y cálculo de n 
@@ -37,4 +37,4 @@ decrypted = pow(enc, d, n)
 # Convierte el número a bytes para obtener el mensaje original
 flag = long_to_bytes(decrypted)
 print(flag)
-`
+```
