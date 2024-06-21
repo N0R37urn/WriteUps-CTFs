@@ -1,0 +1,13 @@
+## Tiny_usb
+
+What a small usb!
+
+1. Confirmar que tipo de archivo es.
+2. Revisar con strings para buscar información que nos pueda ser util.
+
+![Descripción alternativa](thGGYP4)
+
+3. Identificar que hay una posible imagen añadida en la iso.
+4. Utilizar el comando "Binwalk" para extraer datos del archivo.
+5. Encontramos una imagen que contiene la flag: FLAG{hey_i_just_bought_a_usb}
+
