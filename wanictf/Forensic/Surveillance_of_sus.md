@@ -32,8 +32,10 @@ It seems a cache file from this PC has been retrieved. Please investigate it!
   <img src="../../Imagenes/6p2AQ7bTLp.png" width="400" alt="Obtener imagenes">
 </p>
 
-7. Encontramos la flag: FLAG{RDP_is_useful_yipeee}
+7. Encontramos la flag.
 
 <p align="center">
   <img src="../../Imagenes/msrWYbN7fS.png" width="500" alt="Flag">
 </p>
+
+### FLAG{RDP_is_useful_yipeee}
