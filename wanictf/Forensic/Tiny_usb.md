@@ -22,6 +22,6 @@ Nos dan un archivo .iso (chal_tiny_usb.iso), que es posiblemente un volcado de l
 5. Encontramos una imagen que contiene la flag: FLAG{hey_i_just_bought_a_usb}
 
 <p align="center">
-  <img src="../../Imagenes/2FdxLXUSmZ.png" width="300" alt="Flag">
+  <img src="../../Imagenes/2FdxLXUSmZ.png" width="500" alt="Flag">
 </p>
 
