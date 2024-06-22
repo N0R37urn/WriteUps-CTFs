@@ -29,11 +29,11 @@ It seems a cache file from this PC has been retrieved. Please investigate it!
 5. Luego de esperar unos minutos, obtenemos una gran cantidad de archivos tipo bmp, los cuales son imágenes o recortes de imágenes, al buscar un poco mas sobre esto, logramos tener la aplicación [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher/blob/main/README.md) que nos sirve para unir estas imágenes, en un tipo de rompecabezas.
    
 <p align="center">
-  <img src="../../Imagenes/6p2AQ7bTLp.png" width="300" alt="Obtener imagenes">
+  <img src="../../Imagenes/6p2AQ7bTLp.png" width="400" alt="Obtener imagenes">
 </p>
 
 7. Encontramos la flag: FLAG{RDP_is_useful_yipeee}
 
 <p align="center">
-  <img src="../../Imagenes/msrWYbN7fS.png" width="300" alt="Flag">
+  <img src="../../Imagenes/msrWYbN7fS.png" width="500" alt="Flag">
 </p>
