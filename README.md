@@ -8,3 +8,10 @@ Este repositorio contiene soluciones a diversos retos en las categorías de Fore
 - [Forensic](/wanictf/Forensic): Writeups y explicación paso a paso utilizados para los retos forenses.
 - [Crypto](/wanictf/Crypto): Códigos detallados para los retos de Criptografía.
 - [PWN](/wanictf/PWN): Reto resuelto de PWN (Fácil).
+
+
+## Archivos para descargar
+
+- [Archivos](/wanictf/files)
+
+By: N0R37urn
