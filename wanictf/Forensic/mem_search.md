@@ -23,20 +23,20 @@ python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.filescan
 ```
 Y otros comandos mas.
 
-3. Se identifica que hay un proceso de `powershell.exe` que por lo general ejecutan algunos comandos, cuando hay algún Comand and control (C2).
+3. Se identificó que hay un proceso de `powershell.exe` que por lo general ejecutan algunos comandos, cuando hay algún Comand and control (C2).
 <p align="center">
   <img src="../../Imagenes/JquaEvKxnp.png" width="500" alt="PSLIST">
 </p>
 
-4. Se busca información sobre ese proceso, usando cmdline, dumpfile y otros, pero no se logra obtener ningúna respuesta.
+4. Se buscó información sobre ese proceso, usando cmdline, dumpfile y otros, pero no se logró obtener ningúna respuesta.
 
-5. Utilizando Volatility y el comando `python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.netscan` para analizar una imagen de memoria, identificamos conexiones de red relacionadas con el proceso powershell.exe. Este proceso tenía una conexión local cerrada en la dirección IP 192.168.0.16 en el puerto 8282. Tal actividad en powershell.exe puede ser rutinaria o sospechosa dependiendo del contexto, ya que este proceso puede ejecutar scripts que interactúan con sistemas locales o remotos.
+5. Utilizando Volatility y el comando `python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.netscan`, se identificó conexiones de red relacionadas con el proceso powershell.exe. Este proceso tenía una conexión local cerrada en la dirección IP 192.168.0.16 en el puerto 8282. Tal actividad en powershell.exe puede ser normal o sospechosa dependiendo del contexto, ya que este proceso puede ejecutar scripts que interactúan con sistemas locales o remotos.
 
 <p align="center">
   <img src="../../Imagenes/yBhDfAbmwH.png" width="500" alt="Netscan">
 </p>
 
-6. Luego de encontrar esa posible dirección IP, utilizamos `strings chal_mem_search.DUMP | grep "http://192.168.0.16:8282"` e identificamos:
+6. Luego de encontrar esa posible dirección IP, utilizamos `strings chal_mem_search.DUMP | grep "http://192.168.0.16:8282"` y se encontró:
 
 - `http://192.168.0.16:8282/B64_decode_RkxBR3tEYXl1bV90aGlzX2lzX3NlY3JldF9maWxlfQ%3D%3D/`
    
