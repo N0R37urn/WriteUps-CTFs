@@ -9,6 +9,8 @@ The memory dump is large, and you can download it from the following URL (it wil
 
 Please note that the file may become unavailable after the WaniCTF event.
 
+[Link Descarga](https://drive.google.com/file/d/1sxnYz-bp-E9Bj9usN8lRoL4OE8AxrCRu/view?usp=sharing)
+
 # Solución
 
 
