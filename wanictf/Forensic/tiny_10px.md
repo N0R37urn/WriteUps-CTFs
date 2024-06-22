@@ -3,6 +3,8 @@
 
 What a small world!
 
+[Archivo](../files/for-tiny-10px.zip)
+
 # Solución
 
 1. Inicialmente, utilicé varias herramientas comunes en análisis de esteganografía y metadatos, como ExifTool, Binwalk, y Steghide. Lamentablemente, estas herramientas no revelaron información útil directamente.
