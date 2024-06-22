@@ -14,7 +14,7 @@ Nos dan un archivo .iso (chal_tiny_usb.iso), que es posiblemente un volcado de l
 2. Revisar con strings para buscar información que nos pueda ser util.
 
 <p align="center">
-  <img src="../../Imagenes/wkTeIFO2OK.png" width="300" alt="Primeros pasos">
+  <img src="../../Imagenes/wkTeIFO2OK.png" width="500" alt="Primeros pasos">
 </p>
 
 3. Identificar que hay una posible imagen añadida en la iso.
