@@ -9,15 +9,17 @@ What a small world!
 
 2. Dado que el enunciado del reto mencionaba la palabra "small", decidí investigar específicamente sobre las dimensiones de las imágenes JPEG. Encontré un blog muy informativo en [cyberhacktics](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/) que detallaba cómo la información puede ocultarse alterando las dimensiones de la imagen en los datos hexadecimales.
 
-![Explicación](../../Imagenes/QqYQV8zLEx.png)
+<img src="../../Imagenes/QqYQV8zLEx.png" width="300" alt="Explicación">
 
 3. Utilicé la herramienta en línea [Hexed](https://hexed.it/) para examinar los datos hexadecimales de la imagen. Este análisis me permitió identificar los valores que correspondían a las dimensiones de la imagen.
+
+<img src="../../Imagenes/7gsGgAt0hk.png" width="300" alt="Modificación">
 
 4. Con esta información obtenida, procedí a modificar los valores de tamaño en la cabecera de la imagen, eligiendo valores aleatorios que pensé podrían ayudarme a ver algo más.
 
 5. Tras descargar y visualizar la imagen modificada, noté que aparecían algunas letras dispersas a lo largo de la imagen, lo cual indicaba una posible presencia de la bandera en un formato alterado.
 
-![Modificación](../../Imagenes/3O8mDlDiBb.png)
+<img src="../../Imagenes/3.jpg" width="300" alt="Imagen">
 
 6. Con la ayuda de un editor gráfico simple como Paint, pude reordenar y alinear las letras para formar una bandera.
 
