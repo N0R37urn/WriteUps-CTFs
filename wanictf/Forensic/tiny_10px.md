@@ -23,13 +23,13 @@ What a small world!
 
 4. Con esta información obtenida, procedí a modificar los valores de tamaño en la cabecera de la imagen, eligiendo valores aleatorios que pensé podrían ayudarme a ver algo más.
 
-5. Tras descargar y visualizar la imagen modificada, noté que aparecían algunas letras dispersas a lo largo de la imagen, lo cual indicaba una posible presencia de la bandera en un formato alterado.
+5. Tras descargar y visualizar la imagen modificada, noté que aparecían algunas letras a lo largo de la imagen, lo cual me dio a entener que ahí podría estar la bandera en un formato alterado.
 
 <p align="center">
   <img src="../../Imagenes/3.jpg" width="500" alt="Imagen">
 </p>
 
-6. Con la ayuda de un editor gráfico simple como Paint, pude reordenar y alinear las letras para formar una bandera.
+6. Con la ayuda de un editor gráfico simple como Paint, logré reordenar y alinear las letras para formar la bandera esperada.
 
 <p align="center">
   <img src="../../Imagenes/CBHIA2OEKD.png" width="300" alt="Flag">
