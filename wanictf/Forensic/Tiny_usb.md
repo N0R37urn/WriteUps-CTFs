@@ -19,9 +19,10 @@ Nos dan un archivo .iso (chal_tiny_usb.iso), que es posiblemente un volcado de l
 
 3. Identificar que hay una posible imagen añadida en la iso.
 4. Utilizar el comando "Binwalk" para extraer datos del archivo.
-5. Encontramos una imagen que contiene la flag: FLAG{hey_i_just_bought_a_usb}
+5. Encontramos una imagen que contiene la flag.
 
 <p align="center">
   <img src="../../Imagenes/2FdxLXUSmZ.png" width="500" alt="Flag">
 </p>
 
+### FLAG{hey_i_just_bought_a_usb}
