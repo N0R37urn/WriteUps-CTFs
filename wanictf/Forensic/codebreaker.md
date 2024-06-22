@@ -23,3 +23,4 @@ I, the codebreaker, have broken the QR code!
   <img src="../../Imagenes/SXUuLDRoS5.png" width="300" alt="Flag">
 </p>
 
+### FLAG{How_scan-dalous}
