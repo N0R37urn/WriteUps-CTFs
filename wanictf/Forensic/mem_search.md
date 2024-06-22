@@ -45,7 +45,7 @@ Y otros comandos mas.
 </p>
 
 7. Decodificamos con base64 el path `hRkxBR3tEYXl1bV90aGlzX2lzX3NlY3JldF9maWxlfQ` y obtenemos la Flag.
-8. 
+
 <p align="center">
   <img src="../../Imagenes/G701zp3AtH.png" width="400" alt="Flag">
 </p>
