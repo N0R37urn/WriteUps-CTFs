@@ -38,4 +38,4 @@ Watch my stream once in a while.
   <img src="../../Imagenes/Y0nYFsjnTM.png" width="400" alt="FLAG">
 </p>
 
-### FLAG{Th4ns_y0u_f0r_W4cthing}
+### FLAG{Th4nk_y0u_f0r_W4cthing}
