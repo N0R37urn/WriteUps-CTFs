@@ -11,9 +11,9 @@ It seems a cache file from this PC has been retrieved. Please investigate it!
 
 1. Confirmar que tipo de archiv es.
 2. De acuerdo a la descripción, nos indica que es un archivo de cache de un PC el cual fue recuperado para investigar.
-3. Con la experciencias anteriores de jugar CTF, recordé de un repositorio [Repositorio](https://github.com/ANSSI-FR/bmc-tools/blob/master/bmc-tools.py) el cual nos ayuda a analizar caché de bits RDP.
+3. Con la experciencias anteriores de jugar CTF, recordé  un repositorio [bmc-tools](https://github.com/ANSSI-FR/bmc-tools/blob/master/bmc-tools.py) el cual nos ayuda a analizar caché de bits RDP.
    
-4. Usamos el codigo de python para intentarlo:
+4. Usamos el codigo de python para obtener algo:
 
 <p align="center">
   <img src="../../Imagenes/yySkFFQ4w7.png" width="300" alt="Ejecución">
