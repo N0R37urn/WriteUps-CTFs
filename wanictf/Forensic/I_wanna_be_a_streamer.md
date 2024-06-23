@@ -26,7 +26,7 @@ Watch my stream once in a while.
   <img src="../../Imagenes/DlAu9Nk27G.png" width="600" alt="Extracción">
 </p>
 
-4. Después de extraer el video con la extensión .264, utilicé el comando ffmpeg -probesize 32M -analyzeduration 32M -f h264 -i video_20240623-102629.264 -c copy flag.mp4 para realizar la encapsulación del stream de video H.264 en un contenedor MP4 sin alterar la codificación original.
+4. Después de extraer el video con la extensión .264, utilicé el comando `ffmpeg -probesize 32M -analyzeduration 32M -f h264 -i video_20240623-102629.264 -c copy flag.mp4` para realizar la encapsulación del stream de video H.264 en un contenedor MP4 sin alterar la codificación original.
 
 <p align="center">
   <img src="../../Imagenes/rt4hyC1n7M.png" width="600" alt="FFMPEG">
