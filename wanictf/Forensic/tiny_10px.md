@@ -3,33 +3,33 @@
 
 What a small world!
 
-[Archivo](../files/for-tiny-10px.zip)
+[Link](../files/for-tiny-10px.zip)
 
-# Solución
+# Solution
 
-1. Inicialmente, utilicé varias herramientas comunes en análisis de esteganografía y metadatos, como ExifTool, Binwalk, y Steghide. Lamentablemente, estas herramientas no revelaron información útil directamente.
+1. Initially, I utilized several common tools in steganography and metadata analysis, such as ExifTool, Binwalk, and Steghide. Unfortunately, these tools did not directly reveal any useful information.
 
-2. Dado que el enunciado del reto mencionaba la palabra "small", decidí investigar específicamente sobre las dimensiones de las imágenes JPEG. Encontré un blog muy informativo en [cyberhacktics](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/) que detallaba cómo la información puede ocultarse alterando las dimensiones de la imagen en los datos hexadecimales.
-
-<p align="center">
-  <img src="../../Imagenes/QqYQV8zLEx.png" width="600" alt="Explicación">
-</p>
-
-3. Utilicé la herramienta en línea [Hexed](https://hexed.it/) para examinar los datos hexadecimales de la imagen. Este análisis me permitió identificar los valores que correspondían a las dimensiones de la imagen.
+2. Since the challenge statement mentioned the word "small," I decided to specifically investigate the dimensions of JPEG images. I found a very informative blog at [cyberhacktics](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/) detailing how information can be hidden by altering the dimensions of an image in the hexadecimal data.
 
 <p align="center">
-  <img src="../../Imagenes/7gsGgAt0hk.png" width="700" alt="Modificación">
+  <img src="../tiny_10px-N0R37urn/assets/QqYQV8zLEx.png" width="600" alt="Explanation">
 </p>
 
-4. Con esta información obtenida, procedí a modificar los valores de tamaño en la cabecera de la imagen, eligiendo valores aleatorios que pensé podrían ayudarme a ver algo más.
-
-5. Tras descargar y visualizar la imagen modificada, noté que aparecían algunas letras a lo largo de la imagen, lo cual me dio a entener que ahí podría estar la bandera en un formato alterado.
+3. I used the online tool [Hexed](https://hexed.it/) to examine the hexadecimal data of the image. This analysis allowed me to identify the values corresponding to the dimensions of the image.
 
 <p align="center">
-  <img src="../../Imagenes/3.jpg" width="500" alt="Imagen">
+  <img src="../../Imagenes/7gsGgAt0hk.png" width="700" alt="Modification">
 </p>
 
-6. Con la ayuda de un editor gráfico simple como Paint, logré reordenar y alinear las letras para formar la bandera esperada.
+4. With this information obtained, I proceeded to modify the size values in the image header, choosing random values that I thought might help reveal something more.
+
+5. After downloading and viewing the modified image, I noticed some letters appearing throughout the image, which suggested that the flag could be hidden in an altered format.
+
+<p align="center">
+  <img src="../../Imagenes/3.jpg" width="500" alt="Image">
+</p>
+
+6. With the help of a simple graphic editor like Paint, I managed to rearrange and align the letters to form the expected flag.
 
 <p align="center">
   <img src="../../Imagenes/CBHIA2OEKD.png" width="300" alt="Flag">
