@@ -12,7 +12,7 @@ What a small world!
 2. Since the challenge statement mentioned the word "small," I decided to specifically investigate the dimensions of JPEG images. I found a very informative blog at [cyberhacktics](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/) detailing how information can be hidden by altering the dimensions of an image in the hexadecimal data.
 
 <p align="center">
-  <img src="../tiny_10px-N0R37urn/assets/QqYQV8zLEx.png" width="600" alt="Explanation">
+  <img src="../../Imagenes/QqYQV8zLEx.png" width="600" alt="Explanation">
 </p>
 
 3. I used the online tool [Hexed](https://hexed.it/) to examine the hexadecimal data of the image. This analysis allowed me to identify the values corresponding to the dimensions of the image.
