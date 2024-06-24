@@ -8,7 +8,7 @@ AES is one of the most important encryption methods in our daily lives.
 # Solución
 El script realiza un ataque de fuerza bruta para descifrar un mensaje cifrado con AES en modo CBC, probando todas las combinaciones posibles para el último byte de la clave y el vector de inicialización (IV) basados en valores base. Para cada combinación, intenta descifrar el mensaje, eliminar el padding y verifica si el contenido descifrado coincide con el formato esperado de una bandera de CTF. Este también comprueba si el hash SHA-256 del mensaje descifrado coincide con algún hash, donde podemos confirmar que la bandera descifrada sea la correcta. Si se encuentra una combinación válida, el script imprime la bandera; de lo contrario, termina sin encontrarla.
 
-```
+```python
 from Crypto.Util.Padding import unpad
 from Crypto.Cipher import AES
 import hashlib
