@@ -4,23 +4,23 @@
 ### Content
 I, the codebreaker, have broken the QR code!
 
-[Archivo](../files/for-codebreaker.zip)
+[File](../files/for-codebreaker.zip)
 
-## Solución
+# Solution
 
-1. Leemos un poco de la estructura de estos codigos QR. [Link](https://medium.com/@r00__/decoding-a-broken-qr-code-39fc3473a034)
+1. We began by reading about the structure of these QR codes. [Link](https://medium.com/@r00__/decoding-a-broken-qr-code-39fc3473a034)
    
-2. Nos ayudamos de [Merri.cx](https://merri.cx/qrazybox/) para revisar las esquinas del código QR y así mismo terminar de hacerlas o completarlas. 
-   
+2. We used [Merri.cx](https://merri.cx/qrazybox/) to examine the corners of the QR code and to help us reconstruct or complete them.
+
 <p align="center">
-  <img src="../../Imagenes/4Gtl5QXYLm.png" width="300" alt="Completar QR">
+  <img src="../codebreaker-N0R37urn/assets/4Gtl5QXYLm.png" width="300" alt="Completing QR">
 </p>
 
-
-3. Luego de eliminar un poco la X del código y ajustar bien las esquinas, obtenemos un código mas completo, el cual puede ser leído sin problemas.
+3. After removing some distortions from the code and properly adjusting the corners, we obtained a more complete code, which could be read without any issues.
 
 <p align="center">
   <img src="../../Imagenes/SXUuLDRoS5.png" width="300" alt="Flag">
 </p>
 
 ### FLAG{How_scan-dalous}
+
