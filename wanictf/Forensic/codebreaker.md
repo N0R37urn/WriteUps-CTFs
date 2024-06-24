@@ -13,7 +13,7 @@ I, the codebreaker, have broken the QR code!
 2. We used [Merri.cx](https://merri.cx/qrazybox/) to examine the corners of the QR code and to help us reconstruct or complete them.
 
 <p align="center">
-  <img src="../codebreaker-N0R37urn/assets/4Gtl5QXYLm.png" width="300" alt="Completing QR">
+  <img src="../../Imagenes/4Gtl5QXYLm.png" width="300" alt="Completing QR">
 </p>
 
 3. After removing some distortions from the code and properly adjusting the corners, we obtained a more complete code, which could be read without any issues.
