@@ -15,7 +15,7 @@ You can connect to the challenge server by executing the following command in yo
   
 2. Se descargó el `.zip` y se validó el archivo llamado `main.c`, en este se identificó una parte que confirma la respuesta que se necesita para obtener la Flag.
 
-```
+```C
    int main(){
     init();
     int answer;
