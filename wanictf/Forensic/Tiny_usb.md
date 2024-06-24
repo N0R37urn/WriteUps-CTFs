@@ -1,25 +1,24 @@
 # tiny_usb
 ### 125pt Beginner
 
-USBが狭い
-What a small usb!
+What a small USB!
 
 [Archivo](../files/for-tiny-usb.zip)
 
-## Solución 
+# Solution
 
-Nos dan un archivo .iso (chal_tiny_usb.iso), que es posiblemente un volcado de la memoria USB en el que se podrá encontrar la bandera.
+We were given a .iso file (chal_tiny_usb.iso), which is likely a dump of a USB memory where the flag can be found.
 
-1. Confirmar que tipo de archivo es.
-2. Revisar con strings para buscar información que nos pueda ser util.
+1. Confirm the type of file.
+2. Use `strings` to search for information that may be useful.
 
 <p align="center">
-  <img src="../../Imagenes/wkTeIFO2OK.png" width="500" alt="Primeros pasos">
+  <img src="../../Imagenes/wkTeIFO2OK.png" width="500" alt="Initial Steps">
 </p>
 
-3. Identificar que hay una posible imagen añadida en la iso.
-4. Utilizar el comando "Binwalk" para extraer datos del archivo.
-5. Encontramos una imagen que contiene la flag.
+3. Identify that there is a possible image added to the ISO.
+4. Use the `Binwalk` command to extract data from the file.
+5. We found an image containing the flag.
 
 <p align="center">
   <img src="../../Imagenes/2FdxLXUSmZ.png" width="500" alt="Flag">
