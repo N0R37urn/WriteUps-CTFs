@@ -11,7 +11,7 @@ El código realiza el descifrado de un mensaje cifrado con RSA utilizando un mó
 
 - Factorizar n con [Factordb](http://www.factordb.com/) 
 
-```
+```Python
 from Crypto.Util.number import getPrime, bytes_to_long, long_to_bytes, inverse
 
 # Generación de primos y cálculo de n 
