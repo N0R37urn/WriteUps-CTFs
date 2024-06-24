@@ -9,45 +9,49 @@ The memory dump is large, and you can download it from the following URL (it wil
 
 Please note that the file may become unavailable after the WaniCTF event.
 
-[Link Descarga](https://drive.google.com/file/d/1sxnYz-bp-E9Bj9usN8lRoL4OE8AxrCRu/view?usp=sharing)
+[Link](https://drive.google.com/file/d/1sxnYz-bp-E9Bj9usN8lRoL4OE8AxrCRu/view?usp=sharing)
 
-# Solución
+# Solution
 
-1. Primero revisamos el archivo con volatility (personalmente uso las versiones 2 y 3).
+1. First, I reviewed the file with Volatility (I personally use versions 2 and 3).
 
-2. Ejecutamos diferentes comandos para encontrar procesos y lograr entender que sucede:
+2. I executed various commands to find processes and try to understand what was happening:
+
 ```
 python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.pslist
 python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.pstree
 python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.filescan
 ```
-Y otros comandos mas.
 
-3. Se identificó que hay un proceso de `powershell.exe` que por lo general ejecutan algunos comandos, cuando hay algún Comand and control (C2).
+And many other commands.
+
+3. It was identified that there is a `powershell.exe` process, which often executes some commands when there is some Command and Control (C2) activity.
 <p align="center">
-  <img src="../../Imagenes/JquaEvKxnp.png" width="500" alt="PSLIST">
+<img src="../../Imagenes/JquaEvKxnp.png" width="500" alt="PSLIST">
 </p>
 
-4. Se buscó información sobre ese proceso, usando cmdline, dumpfile y otros, pero no se logró obtener ningúna respuesta.
+4. Information about this process was sought using cmdline, dumpfile, and others, but no conclusive information was obtained.
 
-5. Utilizando Volatility y el comando `python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.netscan`, se identificó conexiones de red relacionadas con el proceso powershell.exe. Este proceso tenía una conexión local cerrada en la dirección IP 192.168.0.16 en el puerto 8282. Tal actividad en powershell.exe puede ser normal o sospechosa dependiendo del contexto, ya que este proceso puede ejecutar scripts que interactúan con sistemas locales o remotos.
+5. Using Volatility and the command `python vol.py -f /home/noreturn/CTF/chal_mem_search.DUMP windows.netscan`, network connections related to the powershell.exe process were identified. This process had a closed local connection at IP address 192.168.0.16 on port 8282. Such activity in powershell.exe can be normal or suspicious depending on the context, as this process can run scripts that interact with local or remote systems.
 
 <p align="center">
-  <img src="../../Imagenes/yBhDfAbmwH.png" width="500" alt="Netscan">
+<img src="../../Imagenes/yBhDfAbmwH.png" width="600" alt="Netscan">
 </p>
 
-6. Luego de encontrar esa posible dirección IP, utilizamos `strings chal_mem_search.DUMP | grep "http://192.168.0.16:8282"` y se encontró:
+6. After finding that possible IP address, we used `strings chal_mem_search.DUMP | grep "http://192.168.0.16:8282"` and found:
 
 - `http://192.168.0.16:8282/B64_decode_RkxBR3tEYXl1bV90aGlzX2lzX3NlY3JldF9maWxlfQ%3D%3D/`
-   
+
 <p align="center">
-  <img src="../../Imagenes/yqI2GBB15R.png" width="400" alt="192.168.0.18">
+<img src="../../Imagenes/yqI2GBB15R.png" width="600" alt="192.168.0.18">
 </p>
 
-7. Decodificamos con base64 el path `hRkxBR3tEYXl1bV90aGlzX2lzX3NlY3JldF9maWxlfQ` y obtenemos la Flag.
+7. We decoded the Base64 path `hRkxBR3tEYXl1bV90aGlzX2lzX3NlY3JldF9maWxlfQ` and obtained the Flag.
 
 <p align="center">
-  <img src="../../Imagenes/G701zp3AtH.png" width="400" alt="Flag">
+<img src="../../Imagenes/G701zp3AtH.png" width="500" alt="Flag">
 </p>
 
 ## FLAG{Dayum_this_is_secret_file}
+
+
