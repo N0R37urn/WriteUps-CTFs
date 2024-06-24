@@ -7,15 +7,15 @@ You can connect to the challenge server by executing the following command in yo
 
 `nc chal-lz56g6.wanictf.org 9003`
 
-[Archivo](../files/pwn-nc.zip)
+[Link](../files/pwn-nc.zip)
 
-# Solución
+# Solution
 
-1. Se realizá la conexión por medio de netcan y se realizó una prueba para revisar que información trae.
+1. The connection is made using netcat, and a test is conducted to check what information it retrieves.
   
-2. Se descargó el `.zip` y se validó el archivo llamado `main.c`, en este se identificó una parte que confirma la respuesta que se necesita para obtener la Flag.
+2. The `.zip` file was downloaded and the file named `main.c` was checked. In it, a section was identified that confirms the response needed to obtain the Flag.
 
-```C
+```c
    int main(){
     init();
     int answer;
@@ -24,11 +24,14 @@ You can connect to the challenge server by executing the following command in yo
     if(answer == 10){
         win();
     }
-   ```
-Donde se debe poner 10, para obtener la Flag.
+```
+
+Where the answer should be 10 to obtain the Flag.
 
 <p align="center">
   <img src="../../Imagenes/5ODq3OyeaL.png" width="500" alt="Flag">
 </p>
 
 ### FLAG{th3_b3ginning_0f_th3_r0ad_to_th3_pwn_p1ay3r}
+
+
