@@ -18,7 +18,7 @@ What a small world!
 3. I used the online tool [Hexed](https://hexed.it/) to examine the hexadecimal data of the image. This analysis allowed me to identify the values corresponding to the dimensions of the image.
 
 <p align="center">
-  <img src="../../Imagenes/7gsGgAt0hk.png" width="700" alt="Modification">
+  <img src="../assets/7gsGgAt0hk.png" width="700" alt="Modification">
 </p>
 
 4. With this information obtained, I proceeded to modify the size values in the image header, choosing random values that I thought might help reveal something more.
@@ -26,13 +26,13 @@ What a small world!
 5. After downloading and viewing the modified image, I noticed some letters appearing throughout the image, which suggested that the flag could be hidden in an altered format.
 
 <p align="center">
-  <img src="../../Imagenes/3.jpg" width="500" alt="Image">
+  <img src="../assets/3.jpg" width="500" alt="Image">
 </p>
 
 6. With the help of a simple graphic editor like Paint, I managed to rearrange and align the letters to form the expected flag.
 
 <p align="center">
-  <img src="../../Imagenes/CBHIA2OEKD.png" width="300" alt="Flag">
+  <img src="../assets/CBHIA2OEKD.png" width="300" alt="Flag">
 </p>
 
 ### FLAG{b1g_en0ugh}
