@@ -29,7 +29,7 @@ You can connect to the challenge server by executing the following command in yo
 Where the answer should be 10 to obtain the Flag.
 
 <p align="center">
-  <img src="../../Imagenes/5ODq3OyeaL.png" width="500" alt="Flag">
+  <img src="../assets/5ODq3OyeaL.png" width="500" alt="Flag">
 </p>
 
 ### FLAG{th3_b3ginning_0f_th3_r0ad_to_th3_pwn_p1ay3r}
