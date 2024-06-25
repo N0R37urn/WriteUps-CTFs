@@ -16,7 +16,7 @@ It appears that a cache file from this PC has been retrieved for investigation.
 4. We used the Python code to extract data:
 
 <p align="center">
-  <img src="../../Imagenes/yySkFFQ4w7.png" width="300" alt="Execution">
+  <img src="../assets/yySkFFQ4w7.png" width="300" alt="Execution">
 </p>
 
    Here, the `-s` parameter specifies the location of the .bin file, and `-d` indicates where the extracted information will be stored.
@@ -24,13 +24,13 @@ It appears that a cache file from this PC has been retrieved for investigation.
 5. After waiting a few minutes, we obtained a large number of bmp files, which are images or snippets of images. Further investigating, we found the application [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher/blob/main/README.md) useful for piecing these images together like a puzzle.
    
 <p align="center">
-  <img src="../../Imagenes/6p2AQ7bTLp.png" width="400" alt="Extracted Images">
+  <img src="../assets/6p2AQ7bTLp.png" width="400" alt="Extracted Images">
 </p>
 
 7. We found the flag.
 
 <p align="center">
-  <img src="../../Imagenes/msrWYbN7fS.png" width="500" alt="Flag">
+  <img src="../assets/msrWYbN7fS.png" width="500" alt="Flag">
 </p>
 
 ### FLAG{RDP_is_useful_yipeee}
