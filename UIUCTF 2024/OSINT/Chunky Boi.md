@@ -6,8 +6,14 @@ For coordinates, just omit the digits, do not round up. Precision is the same as
 
 Flag format clarification: The last digit of the first coordinate is even, and the last digit of the second coordinate is odd.
 
+<p align="center">
+  <img src="../OSINT/assets/chunky_boi.jpg" width="500" alt="Image">
+</p>
+
 # Solution
 
 By performing a reverse image search on the picture of the airplane, I identified the type of aircraft on [AirHistory](https://www.airhistory.net/photo/166643/07-7187/77187). To determine the location or airport, I cross-referenced information on potential locations using Wikipedia [Alaska Airlines](https://es.wikipedia.org/wiki/Alaska_Airlines), which led to the identification of the `Seattle-Tacoma International Airport.`
 
-
+<p align="center">
+  <img src="../OSINT/assets/6c2On9hmqf.png" width="500" alt="Infomration">
+</p>
