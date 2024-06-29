@@ -16,4 +16,8 @@ By performing manual searches using reverse image tools like Google Lens, I disc
 
 [Location](https://www.google.com/maps/@42.3479615,-71.0696606,3a,75y,266.94h,101t/data=!3m7!1e1!3m5!1s-4Jq2zKCxlVHUHnZxpXIGA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D-4Jq2zKCxlVHUHnZxpXIGA%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D266.9412482170567%26pitch%3D-10.996245888867804%26thumbfov%3D90!7i16384!8i8192?hl=es&coh=205410&entry=ttu)
 
+<p align="center">
+  <img src="../OSINT/assets/qOmhsEENgn.jpg" width="500" alt="Dork">
+</p>
+
 # uiuctf{Arlington Street, Boston}
