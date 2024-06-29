@@ -11,7 +11,7 @@ This is part three of a three-part OSINT suite including Hip With the Youth, An 
 
 After that, I tried searching many times on his followers, on links, with dorks and more, but I couldn't manage to find anything relevant.
 
-Exploring different Spotify settings, I realized that I could activate the "See what your friends are listening to" option. Once enabled, I could see on the right side of the user interface, a recent activity by user "UIUC-Chan" that included a playlist called "Songs for train lovers".
+Exploring different Spotify settings, I realized that I could activate the `See what your friends are listening to` option. Once enabled, I could see on the right side of the user interface, a recent activity by user `UIUC-Chan` that included a playlist called "Songs for train lovers".
 
 <p align="center">
   <img src="../OSINT/assets/atkbSOTOae.png" width="500" alt="Account">
