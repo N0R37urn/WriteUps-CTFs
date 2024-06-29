@@ -7,7 +7,7 @@ Some words are blurred out to make the challenge harder, hopefully.
 Flag format clarification: Use the full type, e.g. Avenue, Street, Road, etc., and include a space between the comma and city name.
 
 <p align="center">
-  <img src="../OSINT/assets/night.jpg" width="500" alt="Dork">
+  <img src="../OSINT/assets/nigth.jpg" width="500" alt="Dork">
 </p>
 
 # Solution 
