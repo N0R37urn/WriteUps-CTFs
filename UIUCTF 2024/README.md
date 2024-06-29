@@ -5,8 +5,8 @@ Este repositorio contiene soluciones a diversos retos en las categorías de Fore
 
 ## Estructura del Repositorio
 
-- [Osint](/UIUCTF/OSINT): Writeups y explicación paso a paso utilizados para los retos forenses.
-- [Crypto](/UIUCTF/Crypto): Códigos detallados para los retos de Criptografía.
+- [Osint](/UIUCTF%202024/OSINT): Writeups y explicación paso a paso utilizados para los retos forenses.
+- [Crypto](/UIUCTF%202024/Crypto): Códigos detallados para los retos de Criptografía.
 
 
 By: N0R37urn
