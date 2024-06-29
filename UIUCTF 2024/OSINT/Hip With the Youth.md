@@ -9,5 +9,5 @@ This is part one of a three-part OSINT suite including Hip With the Youth, An Un
 To find the profiles, log into Instagram and search for "Lisa Long Island" to find this profile [longislandsubwayauthority](https://www.instagram.com/longislandsubwayauthority/). In the bio, there's a link to her Threads account: [@longislandsubwayauthority](https://www.threads.net/@longislandsubwayauthority). While exploring her Threads account, I discovered some comments, and among them was the flag.
 
 <p align="center">
-  <img src="../assets/p2qPQ9KroN.png" width="500" alt="Flag">
+  <img src="../OSINT/assets/p2qPQ9KroN.png" width="500" alt="Flag">
 </p>
