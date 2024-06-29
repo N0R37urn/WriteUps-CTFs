@@ -13,10 +13,15 @@ After that, I tried searching many times on his followers, on links, with dorks 
 
 Exploring different Spotify settings, I realized that I could activate the "See what your friends are listening to" option. Once enabled, I could see on the right side of the user interface, a recent activity by user "UIUC-Chan" that included a playlist called "Songs for train lovers".
 
-Imagen
+<p align="center">
+  <img src="../OSINT/assets/atkbSOTOae.png" width="500" alt="Account">
+</p>
 
 Upon entering that playlist, I found the flag in the playlist description.
 
-Imagen
+<p align="center">
+  <img src="../OSINT/assets/paFRtD50ze.png" width="500" alt="Flag">
+</p>
+
 
 ### uiuctf{7rU1Y_50N65_0F_7H3_5UMM3r_432013}
