@@ -9,7 +9,7 @@ Este repositorio contiene soluciones a diversos retos en las categorías de Fore
 - [Crypto](/UIUCTF%202024/Crypto): Códigos detallados para los retos de Criptografía.
 
 <p align="center">
-  <img src="../UIUCTF%202024/OSINT/assets/3xVUFPXDJR.png" width="500" alt="solved">
+  <img src="../UIUCTF%202024/OSINT/assets/3xVUFPXDJR.png" width="300" alt="solved">
 </p>
 
 
