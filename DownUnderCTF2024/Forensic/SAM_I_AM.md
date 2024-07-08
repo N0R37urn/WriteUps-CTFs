@@ -8,7 +8,7 @@ Place the Administrator Account's Password in DUCTF{}, e.g. DUCTF{password123!}
 
 Author: TurboPenguin
 
-[File](../forensic/files/samiam.zip)
+[File](../Forensic/files/samiam.zip)
 
 # Solution
 
