@@ -7,7 +7,7 @@ NOTE: Wrap your answer in the DUCTF{}, e.g. DUCTF{nmap_7.25}
 
 Author: Pix
 
-[File]()
+[File](../Forensic/files/capture.pcap)
 
 # Solution
 
