@@ -8,6 +8,8 @@ Can you figure out how they got access after pulling these artifacts from one of
 
 Author: TurboPenguin
 
+[File](../Forensic/files/badpolicies.zip)
+
 # Solution:
 
 In the challenge, we were informed about possible domain controllers. To get a better view, I opened the file with AccessData FTK Imager. While searching through the files, I found a file named Groups.xml, where I discovered the string:
